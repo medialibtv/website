@@ -1,0 +1,100 @@
+html, body {
+  font-size: 18px;
+}
+
+body {
+  background-color: #FFF;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.2;
+}
+
+a {
+  color: inherit;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  background-color: #00B8D4;
+  background-image: url("../images/background.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-blend-mode: multiply;
+}
+
+.logo {
+  width: 80%;
+  height: auto;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 3rem;
+}
+
+.footer {
+  margin-top: auto;
+  font-size: .75rem;
+  padding: .5rem;
+}
+
+.main {
+  max-width: 36em;
+  text-align: center;
+  flex: 1;
+}
+
+.loud, .whisper {
+  background-color: white;
+  background-color: rgba(255,255,255,.9);
+  padding: 2rem;
+  margin-bottom: 3rem;
+}
+
+.whisper {
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.louder {
+  background-color: #00B8D4;
+  color: #FFF;
+}
+
+.h {
+  font-family: 'Karla', sans-serif;
+  line-height: 1.1;
+  letter-spacing: -.06em;
+}
+
+.h b {
+  color: #00B8D4;
+}
+
+.h em {
+  color: #ef2678;
+  font-style: normal;
+}
+
+.h-main {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: .5rem;
+}
+
+.h-secondary {
+  font-size: 1.3rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  padding-bottom: 0.25rem;
+  border-bottom: 1px solid #121212;
+}

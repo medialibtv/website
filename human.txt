@@ -1,0 +1,7 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Dominique Feyer -- Design Code & UI -- https://twitter.com/dfeyer
+    Laurent Cherpit -- Code & Review -- https://twitter.com/laurentCherpit
